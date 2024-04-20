@@ -14,7 +14,7 @@ The configuration creates the following resources:
 - A backend service that distributes traffic to the instance groups using different balancing modes.
 - A URL map and an HTTP proxy target to route traffic to the backend service.
 - A global forwarding rule that forwards incoming HTTP traffic to the proxy.
-- Global IP addresses (IPv4 and IPv6) for the forwarding rule.
+- Global IP addresses (IPv4) for the forwarding rule.
 - A stress test instance that simulates traffic to the load balancer IP address.
 
 ## Usage
